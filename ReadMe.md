@@ -36,7 +36,6 @@ Make your first Pull Request and earn a free tee from GitHub!
 name: Michael
 institution: pqrst
 github: michael27
-```
 
 _Do not use special characters in the template above._
 

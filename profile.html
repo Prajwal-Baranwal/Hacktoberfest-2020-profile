@@ -2,10 +2,59 @@
 <html>
 <head>
 	<title>Hacktoberfest Native</title>
+<style>
+	*{
+		background-color: black;
+	}
+	#animated_div {
+		margin-top: 100px;
+    width: 150px;
+    height: 40px;
+    background: #92B901;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation: animated_div 8s infinite;
+    -moz-animation: animated_div 5s 1;
+    -webkit-animation: animated_div 8s infinite;
+    -o-animation: animated_div 8s infinite;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+@keyframes animated_div{
+0% {
+    transform: rotate(0deg);
+    left: 0px;
+}
+25% {
+    transform: rotate(20deg);
+    left: 0px;
+}
+50% {
+    transform: rotate(0deg);
+    left: 89%;
+}
+55% {
+    transform: rotate(0deg);
+    left: 89%;
+}
+70% {
+    transform: rotate(0deg);
+    left: 89%;
+    background: #1ec7e6;
+}
+100% {
+    transform: rotate(-360deg);
+    left: 0px;
+}
+}
+</style>
 </head>
 <body>
 
-<h1 style="text-align: center;font-size: 50px;color:blue;font-family: sans-serif;font-weight: bolder;">HeroCoder24</h1>
+<div id="animated_div">HeroCoder24</div>
 
 </body>
 </html>

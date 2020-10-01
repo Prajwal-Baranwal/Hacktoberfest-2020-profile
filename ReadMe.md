@@ -26,7 +26,7 @@ Make your first Pull Request and earn a free tee from GitHub!
 - Create a pull request
 - Star this repository
 
-#  M ake your first Pull Request
+#  Make your first Pull Request
 
 ## 1. Try to Add seperate profile for yourself
 
